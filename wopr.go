@@ -21,7 +21,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Println("War Operation Plan Response (WOPR) has initialized.\nRunning on port: " + port)
+	fmt.Println("War Operation Plan Response (WOPR) has initialized.\r\nRunning on port: " + port)
 
 	for {
 		client, err := listener.Accept()
